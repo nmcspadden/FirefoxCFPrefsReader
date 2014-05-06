@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadIdentifier</key>
+	<string>org.mozilla.firefoxcfg</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>227d2b70-352d-0131-0168-000c2944c108</string>
+	<key>PayloadOrganization</key>
+	<string>SSH SF</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDisplayName</key>
+	<string>Firefox Cfg</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.mdm.VMServer.local.227d2b70-352d-0131-0168-000c2944c108.alacarte.customsettings.ac3f29a0-352d-0131-016a-000c2944c108</string>
+			<key>PayloadUUID</key>
+			<string>ac3f29a0-352d-0131-016a-000c2944c108</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadDisplayName</key>
+			<string>Custom: (org.mozilla.autocfg)</string>
+			<key>PayloadContent</key>
+			<dict>
+				<key>org.mozilla.autocfg</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>homePage</key>
+								<string>http://www.sacredsf.org/</string>
+								<key>lockHomePage</key>
+								<true/>
+								<key>noWelcomePage</key>
+								<true/>
+								<key>noUpgradePage</key>
+								<true/>
+								<key>bookmarks</key>
+								<dict>
+									<key>toolbar</key>
+									<dict>
+										<key>name</key>
+										<string>Gmail</string>
+										<key>location</key>
+										<string>&quot;https://accounts.google.com/ServiceLogin?service=mail&quot;</string>
+									</dict>
+								</dict>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
