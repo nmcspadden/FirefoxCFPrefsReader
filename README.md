@@ -14,6 +14,8 @@ You can make a profile that contains the settings you want to manage, and this C
 Usage
 ------
 
+Place the "macosx.js" file in /Library/Application Support/FirefoxCCK/.
+
 Install the accompanied profile (or make one of your own / edit it).  The "Full" profile contains keys for every setting that I manage with the CCK2 for my workstations.  The "minimal" profile contains only a small set, mostly as an example of not setting everything.
 
 Use the CCK2 to generate an autoconfig install, or use the accompanied autoconfig.zip file.  Extract the contents of the zip file and place all of them into Firefox.app/Contents/MacOS/ (do NOT overwrite the browser or defaults/prefs directories - their contents need to merged into the existing ones.  Overwriting the browser folder will cause Firefox to crash on launch).  Replace the "CCK2.cfg" file from the zip with the modified one from this repo.
