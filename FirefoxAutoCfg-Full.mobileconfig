@@ -42,8 +42,21 @@
 						<dict>
 							<key>mcx_preference_settings</key>
 							<dict>
+								<key>description</key>
+								<string>Generic config for SSH</string>
+								<key>version</key>
+								<string>1.0</string>
 								<key>homePage</key>
 								<string>http://www.sacredsf.org/</string>
+								<key>extension</key>
+								<dict>
+									<key>id</key>
+									<string>sacredsf-cck@extensions.sacredsf.org</string>
+									<key>name</key>
+									<string>FirefoxSSH</string>
+									<key>hide</key>
+									<true/>
+								</dict>
 								<key>lockHomePage</key>
 								<true/>
 								<key>noWelcomePage</key>
@@ -86,6 +99,17 @@
 								<true/>
 								<key>disableResetFirefox</key>
 								<true/>
+								<key>autoconfig</key>
+								<dict>
+									<key>disableSafeMode</key>
+									<true/>
+									<key>disableProfileMigrator</key>
+									<true/>
+								</dict>
+								<key>name</key>
+								<string>FirefoxSSH</string>
+								<key>id</key>
+								<string>sacred</string>
 								<key>defaultSearchEngine</key>
 								<string>Google</string>
 								<key>bookmarks</key>
@@ -97,6 +121,11 @@
 										<key>location</key>
 										<string>&quot;https://accounts.google.com/ServiceLogin?service=mail&quot;</string>
 									</dict>
+								</dict>
+								<key>network</key>
+								<dict>
+									<key>proxyType</key>
+									<integer>5</integer>
 								</dict>
 							</dict>
 						</dict>
