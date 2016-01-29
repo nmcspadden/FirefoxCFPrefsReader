@@ -1,6 +1,8 @@
 FirefoxCFPrefsReader
 ===================
 
+**Important Note: This no longer works. This is left here as a proof of concept for posterity. The Javascript-Cocoa bridge no longer functions in modern versions of Mac OS X, but if someone wanted to take another poke at this with the new modern JavaScript support in the OS, you're welcome to!**
+
 Normally, Firefox doesn't support any kind of MCX or Profiles.  It doesn't support reading from preference files at all.
 
 Instead, Firefox is managed with something like [autoconfig](http://mike.kaply.com/2012/03/16/customizing-firefox-autoconfig-files/) or an add-on that configures the settings you want.  This is very easy thanks to the incredible work by [Mike Kaply](http://mike.kaply.com/) - known as the [Client Customization Kit 2](https://addons.mozilla.org/en-US/firefox/addon/cck2wizard/).  The CCK2 allows you to create an autoconfiguration and/or Firefox addon (XPI) that manages the preferences and settings you want.
